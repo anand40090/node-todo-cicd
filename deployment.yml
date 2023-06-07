@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: node-todo-app
-          image: 400150977086.dkr.ecr.ap-south-1.amazonaws.com/springboot:6
+          image: anand40090/node-todo-test:latest
           ports:
             - containerPort: 8000
           env:
